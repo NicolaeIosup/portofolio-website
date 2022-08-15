@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="101px" viewBox="0 0 100 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>LOGO</title>
+    <defs>
+        <linearGradient x1="41.3465077%" y1="-11.9163262%" x2="52.6260811%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CF4646" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="41.3465077%" y1="-12.6865352%" x2="52.6260811%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFDE8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="41.3465077%" y1="-12.0136302%" x2="52.5561119%" y2="99.2708146%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#8A8CCE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Screen-IOS" transform="translate(-145.000000, -93.000000)">
+            <g id="LOGO" transform="translate(195.000000, 143.894737) rotate(90.000000) translate(-195.000000, -143.894737) translate(145.000000, 93.894737)">
+                <path d="M46.3324852,-29.199168 C38.4785884,-9.56913553 38.4785884,7.09930432 46.3324852,20.8061516 C54.1863819,34.5129988 62.3424975,51.1778923 70.800832,70.800832 L41.6080932,70.800832 C41.6080932,68.6709674 41.9458527,63.2514632 42.6213717,54.5423196 C43.6346502,41.4786041 37.7289781,34.9005525 33.2543642,25.2441309 C24.9939639,7.41780896 29.3533376,-10.7299573 46.3324852,-29.199168 Z" id="Triangle-Copy-2" fill="url(#linearGradient-1)" transform="translate(50.000000, 20.800832) rotate(270.000000) translate(-50.000000, -20.800832) "></path>
+                <path d="M46.3324852,0.122576332 C38.4785884,19.7526088 38.4785884,36.4210486 46.3324852,50.1278959 C54.1863819,63.8347431 62.3424975,80.4996366 70.800832,100.122576 L41.6080932,100.122576 C41.6080932,97.9927117 41.9458527,92.5732075 42.6213717,83.8640639 C43.6346502,70.8003484 37.7289781,64.2222968 33.2543642,54.5658752 C24.9939639,36.7395533 29.3533376,18.591787 46.3324852,0.122576332 Z" id="Triangle-Copy-3" fill="url(#linearGradient-2)" transform="translate(50.000000, 50.122576) rotate(270.000000) translate(-50.000000, -50.122576) "></path>
+                <path d="M46.3324852,29.199168 C38.4785884,48.8292004 38.4785884,65.4976402 46.3324852,79.2044875 C54.1863819,92.9113348 62.3424975,109.576228 70.800832,129.199168 L41.6080932,129.199168 C41.6080932,127.069303 41.9458527,121.649799 42.6213717,112.940656 C43.6346502,99.87694 37.7289781,93.2988885 33.2543642,83.6424669 C24.9939639,65.8161449 29.3533376,47.6683786 46.3324852,29.199168 Z" id="Triangle-Copy-4" fill="url(#linearGradient-3)" transform="translate(50.000000, 79.199168) rotate(270.000000) translate(-50.000000, -79.199168) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

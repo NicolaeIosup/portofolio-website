@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="381px" height="165px" viewBox="0 0 381 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Screen" transform="translate(-119.000000, -276.000000)">
+            <g id="Logo" transform="translate(119.000000, 276.000000)">
+                <rect id="Combined-Shape" fill="#F9DC5C" x="0" y="0" width="16" height="165"></rect>
+                <rect id="Rectangle" fill="#F9DC5C" x="13" y="0" width="52" height="21"></rect>
+                <rect id="Rectangle" fill="#F9DC5C" x="48" y="9" width="17" height="74"></rect>
+                <rect id="Rectangle" fill="#F9DC5C" x="13" y="67" width="52" height="21"></rect>
+                <path d="M95,0 L95,144.375 L143,144.375 L143,165 L79,165 L79,0 L95,0 Z M137.666667,150.21875 L95,150.21875 L95,158.8125 L137.666667,158.8125 L137.666667,150.21875 Z" id="Combined-Shape" fill="#F9DC5C"></path>
+                <g id="Z" transform="translate(238.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-2" fill="#F9DC5C" x="0" y="0" width="64" height="20.625"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#F9DC5C" x="0" y="144.375" width="64" height="20.625"></rect>
+                    <line x1="60.7288412" y1="18.9263358" x2="16.5913335" y2="146.137296" id="Path" stroke="#F9DC5C" stroke-width="5"></line>
+                    <line x1="3.26482797" y1="146.137296" x2="47.7639069" y2="18.4611358" id="Path-2" stroke="#F9DC5C" stroke-width="5"></line>
+                </g>
+                <path d="M191.5,0 L223,165 L207.25,165 L191.5,82.5 L175.75,165 L160,165 L191.5,0 Z" id="Combined-Shape" fill="#F9DC5C"></path>
+                <path d="M349,0 L381,165 L365,165 L349,82.5 L333,165 L317,165 L349,0 Z" id="Combined-Shape" fill="#F9DC5C"></path>
+            </g>
+        </g>
+    </g>
+</svg>
