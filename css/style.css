@@ -78,26 +78,26 @@ a:focus {
 }
 
 .button:hover {
-  color: transparent opacity: 0.8;
+  color: transparent opacity: 0.6;
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 .button:active {
   color: transparent
 }
-
-.button.contact {
-  background-color: transparent;
-  color: #3d5af1;
-  text-transform: uppercase;
-  border: 2px solid #FFFFFF;
+.button.cv {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #FFFFFF;
+  color: #000000;
+  /* needed to override the default link color */
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #22D1EE;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
 }
-
-.button.contact:hover {
-  background-color: #22d1ee;
-  color: #ffffff;
-}
-
-.button.contact:active {
-  color: #22d1ee
+.button.cv:hover {
+  color: #22D1EE
 }
