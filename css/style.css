@@ -1,10 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #0e153a;
+  background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: #FFFFFF
+  color: #000000
+}
+
+header {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #0e153a;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+main {
+  padding: 145.19px;
 }
 
 h1, h2, h3, h4 {
@@ -36,14 +54,14 @@ img {
 }
 
 a {
-  color: #22d1ee;
+  color: #FFFFFF;
   text-decoration: none;
   /* No underlining */
 }
 
 a:visited {
   /* visited link */
-  color: #3d5af1;
+  color: #D5D5D5;
 }
 
 a:hover {
@@ -66,38 +84,86 @@ a:focus {
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #22d1ee;
+  background-color: #0e153a;
   color: #FFFFFF;
   /* needed to override the default link color */
   font-weight: 700;
   padding: 10px;
+  margin: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #0DB5D1;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
 .button:hover {
-  color: transparent opacity: 0.6;
-  /* Reduces the opacity of the button to 80% */
+  color: #FFFFFF;
+  background-color: #323F85;
   text-decoration: none;
 }
+
 .button:active {
-  color: transparent
+  color: transparent;
 }
-.button.cv {
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#hero {
+  text-align: center;
+}
+
+#logo {
+  max-width: 250px;
+}
+
+nav {
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #FFFFFF;
-  color: #000000;
-  /* needed to override the default link color */
-  font-weight: 700;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #22D1EE;
-  /* width of the border, type, color */
-  transition: 0.2s opacity;
+  width: 100%
 }
-.button.cv:hover {
-  color: #22D1EE
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+color: #22D1EE;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav>ul>li>a:hover {
+  color: #000000;
+}
+
+nav>ul>li>a:visited {
+  color: #69D6E9;
+}
+.myimg {
+  display: inline-block;
+  width: 100%;
+}
+.mystory{
+  display:inline-block;
+  width: 100%;
 }

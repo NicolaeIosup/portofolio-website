@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>Nicolae-Design</title>
 </head>
@@ -15,8 +15,8 @@
 <body>
   <!--Header Section -->
   <header>
-    <div>
-      <img src="img/logo.svg" alt="Logo">
+    <div class="container">
+      <img src="img/logo.svg" alt="Logo" class="logo" width="60px" height="60px">
       <nav>
         <ul>
           <li><a href="#work">Work</a></li>
@@ -28,8 +28,8 @@
   </header>
   <!-- Hero Section-->
   <main>
-    <div>
-      <div>
+    <div class="containter">
+      <div id="hero">
         <h1> Hi, my name is Nicolae Iosup! </h1>
         <span> I am a UX/UI Designer from London </span>
         <p> I was born in Romania and 6 years ago I decided to move to the United Kingdom to pursue my dreams. <br> With a can-do attitude and always trying to see the half-full part of the cup, I am always looking forward to new challenges that
@@ -39,28 +39,33 @@
   </main>
 
   <!-- Project 1 Plaza-->
-  <div>
-    <div>
-      <h2 id="work"> My Work </h2>
+   <div id="work">
+     <div class="container">
+      <h2> My Work </h2>
+    <div class="row">
+      <h3> Plaza </h3>
+      <p> Plaza is a responsive web application designed for people who shop for their clothes online.
+        My role was to deal with the User Experience part of the project but also with the User Interface part. It took one month to get this project to the final stage.</p>
+      <a href="plaza.html" class="button"> View Project </a>
     </div>
+  </div>
+</div>
     <div>
       <picture>
         <source srcset="img/plaza@1.png" media="(max-min-width:767px)">
         <img src="img/plaza/plaza@1.png" alt="Plaza">
       </picture>
     </div>
-    <div>
-      <h3> Plaza </h3>
-      <p> Plaza is a responsive web application designed for people who shop for their clothes online.
-        My role was to deal with the User Experience part of the project but also with the User Interface part. It took one month to get this project to the final stage.</p>
-</div>
-<div>
-      <a href="plaza.html" class="button"> View Project </a>
-    </div>
 
     <!--Project 2 RoExplore-->
     <div>
       <div>
+      </div>
+
+      <div class="row" id="work">
+        <h3> RoExplore </h3>
+        <p> RoExplore is a native application, designed both for Android and IOS, for people who have an interest in travelling. The application focuses on recomending touristic destinations of Romania.</p>
+        <a href="View Project" class="button"> View Project </a>
       </div>
       <div>
         <picture>
@@ -68,15 +73,10 @@
           <img src="img/roexplore/roexplore@1.png" alt="RoExplore">
         </picture>
       </div>
-      <div>
-        <h3> RoExplore </h3>
-        <p> RoExplore is a native application, designed both for Android and IOS, for people who have an interest in travelling. The application focuses on recomending touristic destinations of Romania.</p>
-        <a href="View Project" class="button"> View Project </a>
-      </div>
 
       <!--Footer Section-->
       <footer id=contact>
-        <div>
+        <div class="container">
           <h2> Get in touch!</h2>
           <p> If you would like to know more about me and my work, get in touch! You can call me at <a href='' tel:077222222> 077222222</a></p>
           <div><a href="mailto:iosup.nicolae@icloud.com" class="button">Email Me</a></div>
