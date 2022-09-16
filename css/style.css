@@ -135,7 +135,7 @@ a:focus {
   width: 100%;
 }
 
-#logo {
+.logo {
   max-width: 250px;
 }
 
@@ -154,10 +154,10 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-  color: #22D1EE;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
+  color: #22D1EE;
 }
 
 nav>ul>li>a:hover {
