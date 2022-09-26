@@ -13,7 +13,6 @@ body {
 
 header {
   display: inline-block;
-  text-align: center;
   padding: 10px 0;
   background-color: #0e153a;
   position: relative;
@@ -62,6 +61,7 @@ h4 {
 img {
   width: 100%;
 }
+
 
 .imgberlin{
   width: 100%;
@@ -167,19 +167,13 @@ content: "";
   border: solid 5px; color: #0e153a;
 }
 
-nav {
-  display: inline-block;
-  width: 100%
-}
 
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
-}
 
 nav>ul>li>a {
   padding: 0 15px;
@@ -196,6 +190,25 @@ nav>ul>li>a:visited {
   color: #69D6E9;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
 
 /* Media Queries */
 
@@ -211,9 +224,25 @@ nav>ul>li>a:visited {
     margin-top: 4px;
   }
 
+  nav > ul{
+    margin-left: 1em 0;
+  }
+
   #hero span {
     display: block;
   }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
 
   .col-md-6 {
   width: 50%;

@@ -17,16 +17,17 @@
   <!--Header Section -->
   <header>
     <div class="container">
-      <picture>
+      <div class="navtoggle" id="myNavtoggle">
         <img src="img/logo.svg" media="(max-width:767px)" lt="Logo" class="logo">
-      </picture>
       <nav>
         <ul>
           <li><a href="#work" class="Hbutton">Home</a></li>
           <li><a href="about.html" class="Hbutton">About Me</a></li>
-          <li><a href="#contact" class="Hbutton">Contact</a></li>
+          <li><a href="#contact" class="Hbutton" onclick="menuToggle()">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></i></a></li>
         </ul>
       </nav>
+    </div>
     </div>
   </header>
   <!-- Hero Section-->
@@ -724,6 +725,7 @@
     </div>
     </div>
   </footer>
+<script   src="https://code.jquery.com/jquery-3.6.1.min.js"   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="   crossorigin="anonymous"></script>
 <script src="js/scripts.js."></script>
 </body>
 
