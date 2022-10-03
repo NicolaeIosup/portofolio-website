@@ -3,12 +3,12 @@
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: #000000
+  color: #000;
 }
 
 header {
@@ -17,40 +17,40 @@ header {
   background-color: #0e153a;
   position: relative;
   width: 100%;
-  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.75);
 }
 
-.Hbutton{
+.Hbutton {
   transition: 0.4s opacity, 0.5s background-color, 0.4s font-size;
 }
 
-.Hbutton:hover{
+.Hbutton:hover {
   text-decoration: none;
   font-size: 18px;
 }
 
-h1, h2, h3, h4 {
+h1 h2 h3 h4 {
   line-height: 1.4;
 }
 
 h1 {
   text-align: center;
-  font-size: 2.50em;
+  font-size: 2.5em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.00em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1.50em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 1.10em;
+  font-size: 1.1em;
   font-weight: 400;
   text-align: center;
 }
@@ -63,28 +63,28 @@ img {
   width: 70%;
 }
 
-
-.imgberlin{
+.imgberlin {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-
 a {
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
+
   /* No underlining */
 }
 
 a:visited {
   /* visited link */
-  color: #D5D5D5;
+  color: #d5d5d5;
 }
 
 a:hover {
   color: #e2f3f5;
-  text-decoration:none;
+  text-decoration: none;
+
   /* Underlining when hovering over a link */
 }
 
@@ -101,21 +101,24 @@ a:focus {
 
 .button {
   display: inline-block;
+
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #0e153a;
-  color: #FFFFFF;
+  color: #fff;
+
   /* needed to override the default link color */
   font-weight: 700;
   padding: 10px;
   margin: 10px;
   border-radius: 3px;
+
   /* width of the border, type, color */
-    transition: 0.2s opacity;
+  transition: 0.2s opacity;
 }
 
 .button:hover {
-  color: #FFFFFF;
-  background-color: #323F85;
+  color: #fff;
+  background-color: #323f85;
   text-decoration: none;
   opacity: 0.8;
 }
@@ -134,7 +137,7 @@ a:focus {
 }
 
 .row::after {
-content: "";
+  content: "";
   clear: both;
   display: table;
 }
@@ -154,16 +157,15 @@ content: "";
   width: 100%;
 }
 
-
 .logo {
   max-width: 50px;
 }
 
-.containerfooter{
+.containerfooter {
   border-top: 3px solid #0e153a;
 }
 
-.containersocialmedia{
+.containersocialmedia {
   display: flex;
   float: right;
 }
@@ -172,34 +174,32 @@ content: "";
   padding: 5px;
 }
 
-
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #22D1EE;
+  color: #22d1ee;
 }
 
-nav>ul>li>a:hover {
-  color: #000000;
+nav > ul > li > a:hover {
+  color: #000;
 }
 
-nav>ul>li>a:visited {
-  color: #69D6E9;
+nav > ul > li > a:visited {
+  color: #69d6e9;
 }
 
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle .navtoggle.responsive {
   position: relative;
 }
 
@@ -212,12 +212,11 @@ nav>ul>li>a:visited {
   padding-top: 5px;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
 /* Media Queries */
-
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
@@ -230,7 +229,7 @@ nav>ul>li>a:visited {
     margin-top: 4px;
   }
 
-  nav > ul{
+  nav > ul {
     margin-left: 1em 0;
   }
 
@@ -238,48 +237,55 @@ nav>ul>li>a:visited {
     display: block;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
   .navtoggle li:not(:last-child) {
-  display: inline-block;
-}
+    display: inline-block;
+  }
 
-.navtoggle li:last-child {
-  display: none;
-}
+  .navtoggle li:last-child {
+    display: none;
+  }
 
   .col-md-6 {
-  width: 50%;
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-}
+@media only screen and (min-width: 1024px)
 
-#about-page h3 { margin-top: 0;}
-}
-
-@media only screen and (min-width: 1024px) {}
-
-@media only screen and (min-width: 1440px) {
-
+  @media only screen and (min-width: 1440px) {
   .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Animation */
-
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
 .sun {
@@ -287,8 +293,13 @@ nav>ul>li>a:visited {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -296,8 +307,13 @@ nav>ul>li>a:visited {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
